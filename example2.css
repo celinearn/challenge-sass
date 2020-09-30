@@ -10,11 +10,11 @@ body {
   background-attachment: fixed;
 }
 
-.article {
+article {
   display: flex;
   flex-wrap: wrap;
 }
-.article section {
+article section {
   flex-grow: 1;
   flex-basis: 45%;
   border: 1px silver solid;
@@ -27,11 +27,11 @@ body {
   overflow: auto;
   box-sizing: border-box;
 }
-.article section#selling-points {
+article section#selling-points {
   flex-grow: 2;
   flex-basis: 100%;
 }
-.article section code {
+article code {
   background: #000;
   border: 1px solid #ddd;
   color: #666;
@@ -46,17 +46,28 @@ body {
   display: block;
   word-wrap: break-word;
 }
-.article section.before {
+article code.before {
   float: left;
   width: 40%;
 }
-.article section.after {
+article code.after {
   float: right;
   width: 40%;
 }
 
+h1 {
+  text-align: center;
+  color: #6B8EFF;
+}
+
+h2 {
+  color: #6B8EFF;
+}
+
 h6 {
   padding: 32px;
+  font-size: 2em;
+  margin-bottom: 0px;
 }
 
 .message, .warning, .error, .success {
@@ -79,4 +90,4 @@ h6 {
   background-color: orange;
 }
 
-/*# sourceMappingURL=exemple2.css.map */
+/*# sourceMappingURL=example2.css.map */
